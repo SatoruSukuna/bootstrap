@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <nav class="nav nav-expand d-flex justify-content-around bg-dark text-white align-items-center ">
+        <h1>Navbar</h1>
+        <ul class="nav gap-2 navbar ">
+            <li class="nav-item"><a class="nav-link text-white  active" href="">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-white  active" href="">Link</a></li>
+            <li class="nav-item"><a class="nav-link disabled  text-secondary" href="">Disabled</a></li>
+            <li class="nav-item dropdown"><a class="nav-link text-white  dropdown-toggle  active" data-bs-toggle="dropdown" href="">Dropdown</a>
+                <ul class="dropdown-menu" data-bs-theme="dark">
+                    <li class="dropdown-item">Active</li>
+                    <li class="dropdown-item">Active</li>
+                </ul>
+            </li>
+        </ul>
+        <form class="d-flex">
+            <input type="search" class="form-control m-2" placeholder="search">
+            <button class="btn btn-success m-3">search</button>
+        </form>
+    </nav>
+    <div class="container-fluid bg-secondary" style="height: 20rem; background: url(img/blog-post-3.jpg); background-repeat: no-repeat; background-size: 100%;">
+        <div class="container p-5 text-white" >
+            <h1 class="text-white">Hello,world!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea velit, voluptas vel ullam, <br> sunt accusantium molestias accusamus officia eaque quis ipsa suscipit delectus! Omnis numquam iusto architecto<br> temporibus eos dolorem.</p>
+            <button class="btn btn-primary fs-6 ">learn more</button>
+
+        </div>
+    </div>
+    <div class="container">
+      <div class="row m-5 text-capitalize">
+            <div class="col">
+            <h1>heading</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, a tempora? Quis ea distinctio nam quibusdam veritatis tempore, labore atque doloribus mollitia vero? Aliquid explicabo quaerat itaque, minus veniam hic.</p>
+            <button class="btn btn-secondary">view details</button>
+        </div>
+        <div class="col">
+            <h1>heading</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, a tempora? Quis ea distinctio nam quibusdam veritatis tempore, labore atque doloribus mollitia vero? Aliquid explicabo quaerat itaque, minus veniam hic.</p>
+            <button class="btn btn-secondary">view details</button>
+        </div>
+        <div class="col">
+            <h1>heading</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, a tempora? Quis ea distinctio nam quibusdam veritatis tempore, labore atque doloribus mollitia vero? Aliquid explicabo quaerat itaque, minus veniam hic.</p>
+            <button class="btn btn-secondary">view details</button>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-secondary">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/1111.jpeg" class="d-block w-100" style="height: 30rem;"  alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/anime 33.webp" class="d-block w-100" style="height: 30rem;"  alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/amaging.jpg" class="d-block w-100" style="height: 30rem;"  alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/anime 22.jpg" class="d-block w-100" style="height: 30rem;"  alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/classrom.jpg" class="d-block w-100" style="height: 30rem;"  alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/gamply.jpg" class="d-block w-100" style="height: 30rem;"  alt="">
+                </div>
+                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+
+            </button>
+
+        </div>
+    </div>    
+</body>
+</html>
